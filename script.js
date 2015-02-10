@@ -94,12 +94,13 @@ $(document).ready(function() {
     var easter_egg = new Konami(function() { $('.shedinja').show();});
     // END KONAMI CODE //
     // MINUN //
-    // Minun resize is borken
-    $('.minun').resizable({
-      maxHeight: 30,
-      maxWidth: 30,
-      minHeight: 10,
-      minWidth: 10
+    $(function() {
+        $('.minun').resizable({
+            maxHeight: 30,
+            maxWidth: 30,
+            minHeight: 10,
+            minWidth: 10
+        });
     });
     // MINUN END //
 });
