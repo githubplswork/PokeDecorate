@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).load(function() {
     // IMAGES //
     // (most) everything should stack at '.minun'. some things look better not stacked.
     $('.balloon').draggable( {
