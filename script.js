@@ -24,8 +24,7 @@ $(document).ready(function() {
         stack: '.minun'
     });
     $('.lights').draggable({
-        containment: 'window', 
-        stack: '.minun'
+        containment: 'window'
     });
     $('.tear').draggable({
         containment: 'window', 
