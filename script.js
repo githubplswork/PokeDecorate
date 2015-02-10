@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    $('#balloon').draggable();
-    $('#hat').draggable();
+    $('.balloon').draggable();
+    $('.hat').draggable();
 });
