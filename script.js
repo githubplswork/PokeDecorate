@@ -5,4 +5,7 @@ $(document).ready(function() {
     $('.hat').draggable({
         containment: 'window'
     });
+    $('.shedinja').draggable({
+        containment: 'window'
+    });
 });
