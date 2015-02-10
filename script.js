@@ -3,7 +3,27 @@ $(document).ready(function() {
         containment: 'window', 
         stack: '.minun'
     });
-    $('.hat', '.rock', '.lights').draggable({
+    $('.hat').draggable({
+        containment: 'window', 
+        stack: '.minun'
+    });
+    $('.b-must').draggable({
+        containment: 'window', 
+        stack: '.minun'
+    });
+    $('.w-must').draggable({
+        containment: 'window', 
+        stack: '.minun'
+    });
+    $('.beard').draggable({
+        containment: 'window', 
+        stack: '.minun'
+    });
+    $('.rock').draggable({
+        containment: 'window', 
+        stack: '.minun'
+    });
+    $('.lights').draggable({
         containment: 'window', 
         stack: '.minun'
     });
