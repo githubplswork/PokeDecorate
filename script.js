@@ -3,7 +3,7 @@ $(document).ready(function() {
         containment: 'window', 
         stack: '.minun'
     });
-    $('.hat').draggable({
+    $('.hat', '.rock', '.lights').draggable({
         containment: 'window', 
         stack: '.minun'
     });
