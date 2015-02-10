@@ -9,6 +9,15 @@
       <script type='text/javascript' src='konami.js'></script>
       <link href="http://code.jquery.com/ui/1.11.2/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
       <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+      
+      $(function() {
+        $('.minun').resizable({
+            maxHeight: 30,
+            maxWidth: 30,
+            minHeight: 10,
+            minWidth: 10
+        });
+      });
     </head>
     
     <body>
