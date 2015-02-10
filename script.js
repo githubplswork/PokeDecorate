@@ -96,7 +96,7 @@ $(document).ready(function() {
     // MINUN //
     $('.minun').resizable({
       maxHeight: 30,
-      maxWidth: 300,
+      maxWidth: 30,
       minHeight: 10,
       minWidth: 10
     });
