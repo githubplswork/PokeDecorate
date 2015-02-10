@@ -21,6 +21,6 @@
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
-  	height:10%;
-  	width:10%;
+  	height:20px;
+  	width:20px;
 }
