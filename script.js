@@ -8,7 +8,5 @@ $(document).ready(function() {
         stack: '.minun'
     });
     $('.shedinja').hide();
-    var easter_egg = new Konami(function() { 
-        alert('yay')
-    });
+    var easter_egg = new Konami(function() { alert('Konami code!')});
 });
