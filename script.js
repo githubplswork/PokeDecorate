@@ -9,6 +9,6 @@ $(document).ready(function() {
     });
     $('.shedinja').hide();
     var easter_egg = new Konami(function() { 
-        $('.shedinja').show();
+        alert('yay')
     });
 });
