@@ -84,21 +84,22 @@ $(document).ready(function() {
         containment: 'window', 
         stack: '.minun'
     });
-    $('.othersparkels').draggable({
+    $('.othersparkles').draggable({
         containment: 'window', 
         stack: '.minun'
     });
     // IMAGES END //
     // KONAMI CODE//
     $('.shedinja').hide();
-    var easter_egg = new Konami(function() { alert('Konami code!')});
+    var easter_egg = new Konami(function() { $('.shedinja').show();});
     // END KONAMI CODE //
-    // MINUN //
+    /* MINUN //
+    // Minun resize is borken
     $('.minun').resizable({
       maxHeight: 30,
       maxWidth: 30,
       minHeight: 10,
       minWidth: 10
     });
-    // MINUN END //
+    // MINUN END */
 });
