@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    // IMAGES //
+    // (most) everything should stack at '.minun'. some things look better not stacked.
     $('.balloon').draggable( {
         containment: 'window', 
         stack: '.minun'
@@ -86,6 +88,17 @@ $(document).ready(function() {
         containment: 'window', 
         stack: '.minun'
     });
+    // IMAGES END //
+    // KONAMI CODE//
     $('.shedinja').hide();
     var easter_egg = new Konami(function() { alert('Konami code!')});
+    // END KONAMI CODE //
+    // MINUN //
+    $('.minun').resizable({
+      maxHeight: 30,
+      maxWidth: 300,
+      minHeight: 10,
+      minWidth: 10
+    });
+    // MINUN END //
 });
