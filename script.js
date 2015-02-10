@@ -93,4 +93,12 @@ $(document).ready(function() {
     $('.shedinja').hide();
     var easter_egg = new Konami(function() { $('.shedinja').show();});
     // END KONAMI CODE //
+    $(function() {
+        $('.minun').resizable({
+            maxHeight: 125,
+            maxWidth: 125,
+            minHeight: 96,
+            minWidth: 96
+        });
+    });
 });
