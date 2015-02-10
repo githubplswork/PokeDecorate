@@ -1,11 +1,14 @@
 $(document).ready(function() {
     $('.balloon').draggable( {
-        containment: 'window' 
+        containment: 'window', 
+        stack: '.minun'
     });
     $('.hat').draggable({
-        containment: 'window'
+        containment: 'window', 
+        stack: '.minun'
     });
     $('.shedinja').draggable({
-        containment: 'window'
+        containment: 'window', 
+        stack: '.minun'
     });
 });
