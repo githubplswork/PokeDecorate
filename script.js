@@ -1,3 +1,4 @@
+$('.shedinja').hide();
 $(document).ready(function() {
     $('.balloon').draggable( {
         containment: 'window', 
@@ -7,7 +8,7 @@ $(document).ready(function() {
         containment: 'window', 
         stack: '.minun'
     });
-    $('.shedinja').draggable({
-        containment: 'window'
+    var easter_egg = new Konami(function() { 
+        $('.shedinja').show();
     });
 });
