@@ -1,4 +1,8 @@
 $(document).ready(function() {
-    $('.balloon').draggable();
-    $('.hat').draggable();
+    $('.balloon').draggable( {
+        containment: 'window' 
+    });
+    $('.hat').draggable({
+        containment: 'window'
+    });
 });
