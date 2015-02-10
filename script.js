@@ -8,7 +8,6 @@ $(document).ready(function() {
         stack: '.minun'
     });
     $('.shedinja').draggable({
-        containment: 'window', 
-        stack: '.minun'
+        containment: 'window'
     });
 });
