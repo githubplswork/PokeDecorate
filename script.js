@@ -1,4 +1,4 @@
-randomQuote = ['Redew: wow ur cool', 'Redew: "good game"\ntestingnewpokes2: gg\nRedew: shut up\nRedew: fuck']
+randomQuote = ['Redew: wow ur cool', 'Redew: "good game"\r\ntestingnewpokes2: gg\r\nRedew: shut up\r\nRedew: fuck']
 $(window).load(function() {
     // IMAGES //
     // (most) everything should stack at '.minun'. some things look better not stacked.
