@@ -1,3 +1,4 @@
+randomQuote = ['Redew: wow ur cool', 'Redew: "good game"\ntestingnewpokes2: gg\nRedew: shut up\nRedew: fuck']
 $(window).load(function() {
     // IMAGES //
     // (most) everything should stack at '.minun'. some things look better not stacked.
@@ -101,4 +102,6 @@ $(window).load(function() {
             minWidth: 96
         });
     });
+    var quote = Math.floor(Math.random()*randomQuote.length);
+    // $('#quote-box').console.log(randomQuote[quote]);
 });

@@ -16,6 +16,20 @@
 	box-shadow: 7px 7px 10px #97999c;
 }
 
+#quote-box {
+	margin: 10px auto;
+	padding: 15px 15px;
+	border: 1px solid  #745A7B;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	max-width: 400px;
+	color: #4B4B96;
+	-webkit-box-shadow: 7px 7px 10px #97999c;
+	-moz-box-shadow: 7px 7px 10px #97999c;
+	box-shadow: 7px 7px 10px #97999c;
+}
+
 .minun {
   	position: absolute;
 	top: 50%;
