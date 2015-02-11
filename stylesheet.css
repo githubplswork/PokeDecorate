@@ -28,6 +28,11 @@
 	-moz-box-shadow: 7px 7px 10px #97999c;
 	box-shadow: 7px 7px 10px #97999c;
 	font-family:"Trebuchet MS",Helvetica,Arial,sans-serif;
+    	position:absolute;
+	bottom:0px;
+	right:25%;
+	left:50%;
+	margin-left:-150px;
 }
 
 .minun {
