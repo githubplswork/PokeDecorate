@@ -97,14 +97,6 @@ $(window).load(function() {
         $('.shedinja').show("slow");
     });
     // END KONAMI CODE //
-    $(function() {
-        $('.minun').resizable({
-            maxHeight: 125,
-            maxWidth: 125,
-            minHeight: 96,
-            minWidth: 96
-        });
-    });
     var quote = Math.floor(Math.random()*randomQuote.length);
     $('#quote-box').html(randomQuote[quote]);
 });
