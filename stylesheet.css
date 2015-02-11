@@ -35,9 +35,10 @@
 	margin-left:-200px;
 }
 
-html {
+body {
 	background-image:url("http://i.imgur.com/qocbjRs.png");
 	background-repeat: no-repeat;
+	background-position: center;
 	position: fixed;
 	top: 50%;
 	left: 50%;
