@@ -24,14 +24,14 @@
 	-moz-border-radius: 12px;
 	border-radius: 12px;
 	max-width: 400px;
-	color: #4B4B96;
+	max-height:200px;
 	-webkit-box-shadow: 7px 7px 10px #97999c;
 	-moz-box-shadow: 7px 7px 10px #97999c;
 	box-shadow: 7px 7px 10px #97999c;
 }
 
 .minun {
-	position: fixed;
+	position: absolute;
 	top: 50%;
 	left: 50%;
 	margin-top: -48px;
