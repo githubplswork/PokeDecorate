@@ -37,6 +37,7 @@
 
 html {
 	background-image:url("http://i.imgur.com/qocbjRs.png");
+	background-repeat: no-repeat;
 	position: fixed;
 	top: 50%;
 	left: 50%;
