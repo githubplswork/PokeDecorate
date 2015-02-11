@@ -103,5 +103,5 @@ $(window).load(function() {
         });
     });
     var quote = Math.floor(Math.random()*randomQuote.length);
-    // $('#quote-box').console.log(randomQuote[quote]);
+    $('#quote-box').text(randomQuote[quote]);
 });
