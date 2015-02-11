@@ -39,15 +39,13 @@
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	margin-top: -48px;		
--	margin-left: -48px;
 }
 
 .shedinja {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	margin-top: -48px;		
--	margin-left: -48px;
+	margin-top: -40px;		
+-	margin-left: -50px;
 	z-index:-1;
 }
