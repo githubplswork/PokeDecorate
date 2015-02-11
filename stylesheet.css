@@ -31,11 +31,9 @@
 }
 
 .minun {
-  	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
-	width: auto;
-	height: auto;
-	margin-top: auto; /* Half the height */
-	margin-left: auto; /* Half the width */
+	margin-top: -48px;
+	margin-left: -48px;
 }
