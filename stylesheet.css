@@ -44,7 +44,7 @@
 }
 
 .shedinja {
-	position: relative;
+	position: fixed;
 	top: 50%;
 	left: 50%;
 	margin-top: -48px;		
