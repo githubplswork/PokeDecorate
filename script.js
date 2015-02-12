@@ -101,5 +101,5 @@ $(window).load(function() {
     var randNum = Math.floor(Math.random()*randomQuote.length);
     $('#quote-box').html(randomQuote[randNum]);
     $('#poke-box').html(pokemonNamesArray[randNum]);
-    $( $.parseHTML( '<img src="http://www.smogon.com/dex/media/sprites/bw/"' + pokemonNamesArray[randNum] + '.gif' ) ).appendTo( "body" );
+    $( $.parseHTML('<img src="http://play.pokemonshowdown.com/sprites/bw/"' + pokemonNamesArray[randNum] + '.png')).appendTo("#poke-box");
 });
