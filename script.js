@@ -88,4 +88,16 @@ $(document).ready(function() {
     var pokeNum = Math.floor(Math.random()*pokemonNamesArray.length);
     $('#poke-box').html('<img src="http://play.pokemonshowdown.com/sprites/bw/' + pokemonNamesArray[pokeNum].toLowerCase() + '.png" alt="" />');
     // END MON GEN //
+    
+    function findsprite() {
+    var Pokemon = $('.pokemon')[0].value;
+}
+
+
+    $('.pokemon').change(findsprite);
+
+    $('.pokemon').click(function () {
+        $(this).select();
+    });
+
 });
