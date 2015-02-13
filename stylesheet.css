@@ -61,3 +61,17 @@
 	margin-left: -25px;
 	z-index:-1;
 }
+
+#select {
+    height:100%;
+    width:180px;
+    background-color:#745A7B;
+    right:100%;
+    top:0;
+}
+
+html, body {
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
