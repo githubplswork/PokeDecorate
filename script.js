@@ -101,6 +101,6 @@ $(window).load(function() {
     var quoteNum = Math.floor(Math.random()*randomQuote.length);
     var pokeNum = Math.floor(Math.random()*randomQuote.length);
     $('#quote-box').html(randomQuote[quoteNum]);
-    $('#poke-box').html(pokemonNamesArray[pokeNum]);
-    $( $.parseHTML('<img src="http://play.pokemonshowdown.com/sprites/bw/"' + pokemonNamesArray[randNum] + '.png')).appendTo("#poke-box");
+    
+    $( $.parseHTML('<img src="http://play.pokemonshowdown.com/sprites/bw/"' + pokemonNamesArray[pokeNum] + '.png')).appendTo("#poke-box");
 });
