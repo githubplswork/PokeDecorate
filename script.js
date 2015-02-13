@@ -95,7 +95,8 @@ $(window).load(function() {
     $('.shedinja').hide();
     $('.minun').hide();
     var easter_egg = new Konami(function() { 
-        alert('wow ur so cool')
+        alert('wow ur so cool');
+        $('#poke-box').hide();
         $('.minun').show("slow");
         $('.shedinja').show("slow");
     });
