@@ -98,8 +98,9 @@ $(window).load(function() {
         $('.shedinja').show("slow");
     });
     // END KONAMI CODE //
-    var randNum = Math.floor(Math.random()*randomQuote.length);
-    $('#quote-box').html(randomQuote[randNum]);
-    $('#poke-box').html(pokemonNamesArray[randNum]);
+    var quoteNum = Math.floor(Math.random()*randomQuote.length);
+    var pokeNum = Math.floor(Math.random()*randomQuote.length);
+    $('#quote-box').html(randomQuote[quoteNum]);
+    $('#poke-box').html(pokemonNamesArray[pokeNum]);
     $( $.parseHTML('<img src="http://play.pokemonshowdown.com/sprites/bw/"' + pokemonNamesArray[randNum] + '.png')).appendTo("#poke-box");
 });
