@@ -93,8 +93,10 @@ $(window).load(function() {
     // IMAGES END //
     // KONAMI CODE//
     $('.shedinja').hide();
+    $('.minun').hide();
     var easter_egg = new Konami(function() { 
-        alert('dont make me relive this')
+        alert('wow ur so cool')
+        $('.minun').show("slow");
         $('.shedinja').show("slow");
     });
     // END KONAMI CODE //
