@@ -1,5 +1,11 @@
 /* CSS goes here */
 
+#container {
+	height:100%;
+	margin:0px;
+        padding:0px;
+}
+
 #misc-container {
 	margin: 10px auto;
 	padding: 15px 15px;
@@ -68,11 +74,11 @@
     background-color:#745A7B;
     right:100%;
     top:0;
+    position:absolute;
 }
 
 html, body {
     height:100%;
     margin:0px;
     padding:0px;
-    position:absolute;
 }
