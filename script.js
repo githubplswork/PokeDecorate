@@ -90,14 +90,30 @@ $(document).ready(function() {
     // END MON GEN //
     
     function findsprite() {
-    var Pokemon = $('.pokemon')[0].value;
+	var Pokemon = $('.pokemon')[0].value;
+	Pokemon = Pokemon.toLowerCase().replace(/'/g,'');
+	var gen = $('.genchange')[0].value;
+	var url = 'http://www.smogon.com/dex/media/sprites/' + gen + '/' + Pokemon;
+	if (gen == "xy" || gen == "bw" || gen == "c") {
+		url += ".gif";
+	}
+	else {
+		url += ".png";
+	}
+	$('#sprite-box').html('<img src="' + url + '" alt="" />');
+	$('.fullurl').val(url);
+	$('.htmlurl').val('<img src="' + url + '" alt="" />');
+	$('.bbcodeurl').val('[IMG]' + url + '[/IMG]');
 }
 
-
-    $('.pokemon').change(findsprite);
-
-    $('.pokemon').click(function () {
-        $(this).select();
-    });
+	$('.pokemon').each(function() { $(this).autocomplete({
+		source: pokemonNamesArray,
+		change: function(event, ui) {findsprite()}
+	})});
+	$('.genchange').change(findsprite)
+	$('.pokemon').click(function() { $(this).select() });
+	$('.fullurl').click(function() { $(this).select() });
+	$('.htmlurl').click(function() { $(this).select() });
+	$('.bbcodeurl').click(function() { $(this).select() });
 
 });
