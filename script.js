@@ -99,7 +99,7 @@ $(window).load(function() {
     });
     // END KONAMI CODE //
     var quoteNum = Math.floor(Math.random()*randomQuote.length);
-    var pokeNum = Math.floor(Math.random()*randomQuote.length);
+    var pokeNum = Math.floor(Math.random()*pokemonNamesArray.length);
     $('#quote-box').html(randomQuote[quoteNum]);
-    $('#poke-box').html('<img src="http://play.pokemonshowdown.com/sprites/bw/"' + pokemonNamesArray[pokeNum] + '.png');
+    $('#poke-box').html('<img src="http://play.pokemonshowdown.com/sprites/bw/"' + pokemonNamesArray[pokeNum] + '.png alt="" />');
 });
